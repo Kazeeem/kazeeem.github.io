@@ -250,7 +250,7 @@ body {
 .contact .btn a {
 	color: #fff;
 }
-..contact .btn a:hover {
+..contact .btn:hover a {
 	color: #000;
 }
 .contact .btn .fa {

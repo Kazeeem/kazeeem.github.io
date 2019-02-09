@@ -250,6 +250,9 @@ body {
 .contact .btn a {
 	color: #fff;
 }
+..contact .btn a:hover {
+	color: #000;
+}
 .contact .btn .fa {
 	margin-right: 10px;
 }

@@ -245,12 +245,13 @@ body {
 	border: none;
 	transition: 0.5s;
 	background-color: #fff;
-	color: #000;
+	color: #000 !important;
 }
 .contact .btn a {
 	color: #fff;
+	text-decoration: none;
 }
-.contact .btn a:hover {
+.contact .btn:hover a {
 	color: #000;
 }
 .contact .btn .fa {

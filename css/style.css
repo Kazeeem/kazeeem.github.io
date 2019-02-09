@@ -45,10 +45,10 @@ body {
 }
 .scroll-btn {
 	position: absolute;
-	bottom: 40px;
+	bottom: 7px;
 	left: 50%;
 	background-color: #61186f;
-	padding: 20px 8px 30px;
+	padding: 10px 8px 20px;
 	border-radius: 30px;
 }
 .fa-chevron-down {

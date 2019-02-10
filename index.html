@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Welcome to Kazeem Asifat's Resume Website</title>
+	<title>Welcome to Kazeem Asifat's Page</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 	<meta name="author" content="Kazeem Asifat">
@@ -15,33 +15,35 @@
 
 	<!-- Twitter -->
 	<meta name="twitter:card" content="summary">
-	<meta name="twitter:site" content="kazeeem.github.io">
+	<meta name="twitter:site" content="kazeee.github.io">
 	<meta name="twitter:creator" content="Kazeem Asifat">
 	<meta name="twitter:title" content="Kazeem Asifat's Resume Website">
 	<meta name="twitter:description" content="This is a resume website for clients who are looking for a Freelance Front End Developer, it shows my skills, experience, education background, and my speciality.">
 	<meta name="twitter:image" content="images/logo.png">
 
 	<!-- Facebook -->
-	<meta property="og:url" content="kazeeem.github.io/index.html">
+	<meta property="og:url" content="kazeem.github.io">
 	<meta property="og:title" content="Kazeem Asifat's Resume Website">
 	<meta property="og:description" content="This is a resume website for clients who are looking for a Freelance Front End Developer, it shows my skills, experience, education background, and my speciality.">
 	<meta property="og:type" content="website">
-	<meta property="og:image" content="kazeeem.github.io/images/kaz.jpg">
-	<meta property="og:image:secure_url" content="kazeeem.github.io/images/kaz.jpg">
+	<meta property="og:image" content="images/kaz.jpg">
+	<meta property="og:image:secure_url" content="images/kaz.jpg">
 	<meta property="og:image:type" content="image/png">
 	<meta property="og:image:width" content="1200">
 	<meta property="og:image:height" content="630">
 
-	<!--Whatsapp-->
-    <meta property="og:image:width" content="300">
-    <meta property="og:image:height" content="200">
-    <meta property="og:image:alt" content="site-logo">
-
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+
+	<!--CDN link of animate.css
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	-->
+
 	<link rel="stylesheet" type="text/css" href="css/style.css">
     <!--Preloader CSS-->
     <link rel="stylesheet" href="css/preloader.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
     <!--//End Preloader CSS-->
 
     <!--Google font-->
@@ -66,7 +68,7 @@
 <section id="header">
 	<div class="container text-center">
 		<div class="user-box">
-			<img src="images/kaz.png" alt="kazeem Asifat">
+			<img src="images/banner.png" alt="kazeem Asifat" class="wow rotateIn delay-1s">
 			<h1>Kazeem Asifat A.</h1>
 			<p>Freelance Front End Developer</p>
 		</div>
@@ -81,7 +83,7 @@
 <section id="user-info">
 	<div class="nav-bar">
 		<nav class="navbar navbar-expand-lg">
-		  <a class="navbar-brand" href="#header"><img src="images/logo.png" alt="site-logo"></a><!--logocolor: #61186f;-->
+		  <a class="navbar-brand" href="#header"><img src="images/logo.png" alt="site-logo"></a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="fa fa-bars"></span>
 		  </button>
@@ -110,10 +112,10 @@
 	<!-------------About------------------>
 	<div class="about container" id="about">
 		<div class="row">
-			<div class="col-md-6 text-center">
-				<img src="images/kaz.jpg" alt="Kazeem-Asifat" class="profile-img">
+			<div class="col-md-6 text-center wow slideInLeft">
+				<img src="images/kaz.jpg" alt="Kazeem-Asifat" class="profile-img image-fluid">
 			</div>
-			<div class="col-md-6 text-center">
+			<div class="col-md-6 text-center wow slideInRight">
 				<h3>WHO AM I ?</h3>
 				<p>
 					An energetic and imaginative young web developer who is able to work alongside other talented IT professionals in creating websites to the very highest standards. Kazeem has a high awareness of industry issues and trends, particularly in regard to accessibility, usability, emerging technologies, and open source CMS. He is an ambitious type who wants to get noticed, and has the drive and massive energy needed to really make a difference to a project.
@@ -160,24 +162,34 @@
 	</div>
 
 	<!-----------Socials------------------>
-	<div class="social-icons">
+	<div class="social-icons wow wobble">
 		<ul>
 			<a href="https://facebook.com/asifatkazeem" target="_blank" title="Link opens on a new tab">
-				<li><i class="fa fa-facebook-square"></i></li>
+				<li class="facebook"><i class="fa fa-facebook-square"></i></li>
 			</a>
 			<a href="https://twitter.com/Dev_Kazeem" target="_blank" title="Link opens on a new tab">
-				<li><i class="fa fa-twitter"></i></li>
+				<li class="twitter"><i class="fa fa-twitter"></i></li>
 			</a>
-			<a href="https://api.whatsapp.com/send?phone=2348139248444=Hello%20Kazeem,%20i%20need%20a%20resume%20website." target="_blank" title="Link opens on a new tab">
-				<li><i class="fa fa-whatsapp"></i></li>
+			<a href="https://whatsapp.com/wa.me/2348139248444" target="_blank" title="Link opens on a new tab">
+				<li class="whatsapp"><i class="fa fa-whatsapp"></i></li>
 			</a>
 			<a href="https://github.com/kazeeem" target="_blank" title="Link opens on a new tab">
-				<li><i class="fa fa-github-square"></i></li>
+				<li class="github"><i class="fa fa-github-square"></i></li>
 			</a>
 			<a href="#">
-				<li><i class="fa fa-linkedin"></i></li>
+				<li class="googleplus"><i class="fa fa-google-plus"></i></li>
+			</a>
+			<a href="#">
+				<li class="linkedin"><i class="fa fa-linkedin"></i></li>
 			</a>
 		</ul>
+	</div>
+
+	<!------------------Scroll To Top-------------->
+	<div class="scroll-top">
+		<div class="scroll-top-btn">
+			<a href="#header"><i class="fa fa-angle-double-up"></i></a>
+		</div>
 	</div>
 
 	<!----------------Resume----------------->
@@ -187,7 +199,7 @@
 				<div class="col-md-6">
 					<h3 class="text-center">My Experiences</h3>
 					<ul class="profile">
-						<li>
+						<li class="wow slideInLeft">
 							<h4>2019 - Front End Developer</h4>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod mpor incididunt ut labore et dolore magna aliqua.<br>
@@ -196,7 +208,7 @@
 								<b>Location</b> - Lagos Nigeria
 							</p>
 						</li>
-						<li>
+						<li class="wow slideInRight">
 							<h4>2019 - Front End Developer</h4>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod mpor incididunt ut labore et dolore magna aliqua.<br>
@@ -205,7 +217,7 @@
 								<b>Location</b> - Lagos Nigeria
 							</p>
 						</li>
-						<li>
+						<li class="wow slideInLeft">
 							<h4>2019 - Front End Developer</h4>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod mpor incididunt ut labore et dolore magna aliqua.<br>
@@ -220,7 +232,7 @@
 				<div class="col-md-6">
 					<h3 class="text-center">My Education</h3>
 					<ul class="education">
-						<li>
+						<li class="wow slideInRight">
 							<h4>Bachelor Degree</h4>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod mpor incididunt ut labore et dolore magna aliqua.<br>
@@ -229,7 +241,7 @@
 								<b>Location</b> - Federal University of Agriculture, Abeokuta
 							</p>
 						</li>
-						<li>
+						<li class="wow slideInLeft">
 							<h4>2019 - Front End Developer</h4>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod mpor incididunt ut labore et dolore magna aliqua.<br>
@@ -238,7 +250,7 @@
 								<b>Location</b> - Lagos Nigeria
 							</p>
 						</li>
-						<li>
+						<li class="wow slideInRight">
 							<h4>2019 - Front End Developer</h4>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod mpor incididunt ut labore et dolore magna aliqua.<br>
@@ -262,7 +274,7 @@
 			</p>
 
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-4 wow slideInLeft delay-1s">
 					<div class="services-box">
 						<i class="fa fa-laptop"></i><span>Web Design & Development</span>
 						<p>
@@ -270,7 +282,7 @@
 						</p>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 wow slideInDown delay-2s">
 					<div class="services-box">
 						<i class="fa fa-line-chart"></i><span>Digital Marketing</span>
 						<p>
@@ -278,7 +290,7 @@
 						</p>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 wow slideInRight delay-1s">
 					<div class="services-box">
 						<i class="fa fa-rocket"></i><span>Software Development</span>
 						<p>
@@ -308,13 +320,13 @@
 				</div>
 				<div class="col-md-4">
 					<i class="fa fa-globe"></i>
-					<p>kazeeem.github.io</p>
+					<p>www.kazeeem.github.io</p>
 				</div>
 			</div>
-			<button type="button" class="btn btn-primary">
-				<a href="images/resume.pdf" target="_blank"><i class="fa fa-download"></i>Resume</a>
+			<button type="button" class="btn btn-primary wow slideInLeft">
+				<a href="images/resume.pdf" target="_blank" download="resume.pdf"><i class="fa fa-download"></i>Resume</a>
 			</button>
-			<button type="button" class="btn btn-primary">
+			<button type="button" class="btn btn-primary wow slideInRight">
 				<i class="fa fa-rocket"></i>Hire Me
 			</button>
 		</div>
@@ -328,15 +340,7 @@
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 <script src="js/smooth-scroll.js"></script>
-<script>
-	//Preloader Script
-
-    $(window).load(function() {
-        $("#loading").fadeOut(350);
-    });
-    //End Preloader Script
-    
-	var scroll = new SmoothScroll('a[href*="#"]');
-</script>
+<script src="js/wow.min.js"></script>
+<script type="text/javascript" src="js/utilities.js"></script>
 </body>
 </html>

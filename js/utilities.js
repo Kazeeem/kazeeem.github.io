@@ -1,7 +1,7 @@
 //=========== Preloader Script============
 
     $(window).load(function() {
-        $("#loading").fadeOut(350);
+        $("#loading").delay(150).fadeOut(350);
     });
 
 //============ End of Preloader Script==============

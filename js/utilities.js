@@ -1,6 +1,6 @@
 //=========== Preloader Script============
 
-    $(window).load(function() {
+    $(document).ready(function() {
         $("#loading").delay(350).fadeOut(350);
     });
 

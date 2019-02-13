@@ -361,7 +361,7 @@ body {
 	display: none;
 	position: fixed;
 	right: 40px;
-	bottom: 7%;
+	bottom: 20%;
 	z-index: 9999;
 	background: #61186f;
 	opacity: 0.8;

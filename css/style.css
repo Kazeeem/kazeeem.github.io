@@ -267,7 +267,7 @@ body {
 	color: #fff;
 }
 .map {
-	
+
 }
 .contact .row {
 	padding: 30px 0;
@@ -361,7 +361,7 @@ body {
 	display: none;
 	position: fixed;
 	right: 40px;
-	bottom: 17%;
+	bottom: 20%;
 	z-index: 9999;
 	background: #61186f;
 	opacity: 0.8;
@@ -377,4 +377,10 @@ body {
 @keyframes zoom {
 	0% {transform: scale(1);}
 	100% {transform: scale(1.3);}
+}
+
+#map {
+	height: 400px;
+	width: 500px;
+	margin: 10px auto;
 }

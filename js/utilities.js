@@ -33,3 +33,17 @@ AOS.init({
 
 //=========== Wow.js Animation Plugin Initialiser
 	new WOW().init();
+
+// Google map
+
+function initMap() {
+	var location = {lat:6.6568936, lng:3.5056879 };
+	var map = new google.maps.Map(document.getElementById('map'), {
+		zoom: 16,
+		center: location
+	});
+	var marker = new google.maps.Marker({
+		position: location,
+		map: map
+	});
+}

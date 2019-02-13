@@ -5,6 +5,11 @@
     });
 
 //============ End of Preloader Script==============
+
+AOS.init({
+	easing: 'ease-out-back',
+	duration: 1000
+});
     
 //=========== Smooth scroll plugin initialiser=================
 

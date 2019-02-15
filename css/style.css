@@ -69,7 +69,21 @@ body {
 }
 .profile-img {
 	height: 300px;
+	margin-bottom: 40px;
 	border-radius: 30px;
+}
+.desk {
+	width: 500px;
+	margin-bottom: 40px;
+}
+@media screen and (max-width: 760px) {
+	.profile-img {
+		height: 250px;
+	}
+	.desk {
+		width: 400px;
+		margin-top: 50px;
+	}
 }
 .nav-bar {
 	position: sticky;

@@ -31,9 +31,6 @@ AOS.init({
 
 //=========== End of Window scrolling function that changes the navigation bar background and shows the scroll to top button
 
-//=========== Wow.js Animation Plugin Initialiser
-	new WOW().init();
-
 // Google map
 
 function initMap() {

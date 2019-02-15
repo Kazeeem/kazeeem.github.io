@@ -280,12 +280,16 @@ body {
 	background-size: cover;
 	color: #fff;
 }
-.map {
-
-}
 .contact .row {
 	padding: 30px 0;
 	font-size: 22px;
+}
+.contact .office-address .fa {
+	font-size: 40px;
+}
+.contact .office-address .address {
+	font-size: 22px;
+	padding: 10px;
 }
 .contact .col-md-4 .fa {
 	padding: 10px;

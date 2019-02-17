@@ -81,7 +81,7 @@ body {
 		height: 250px;
 	}
 	.desk {
-		width: 400px;
+		width: 300px;
 		margin-top: 50px;
 	}
 }
@@ -399,6 +399,6 @@ body {
 
 #map {
 	height: 400px;
-	width: 500px;
+	width: 300px;
 	margin: 10px auto;
 }
